@@ -13,6 +13,8 @@ import { PreventUnsavedChanges } from './_guards/prevent-unsaved-changes.guard';
 import { ListsResolver } from './_resolvers/lists.resolver';
 import { MessagesResolver } from './_resolvers/messages.resolver';
 import { VideoPageComponent } from './video-page/video-page.component';
+import { GamesComponent } from './games/games.component';
+import { NewsComponent } from './news/news.component';
 
 export const appRoutes: Routes = [
     {path: 'home', component: HomeComponent},
@@ -30,6 +32,8 @@ export const appRoutes: Routes = [
             {path: 'messages', component: MessagesComponent, resolve: {messages: MessagesResolver}},
             {path: 'lists', component: ListsComponent, resolve: {users: ListsResolver}},
             {path: 'videos' , component: VideoPageComponent },
+             {path: 'games', component: GamesComponent},
+            {path: 'news', component: NewsComponent}
         ]
     },
     {path: '**', redirectTo: 'home', pathMatch: 'full'},

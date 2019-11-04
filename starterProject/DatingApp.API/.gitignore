@@ -1,0 +1,6 @@
+.vscode
+bin
+obj
+*.db
+/node modules
+appsettings.json

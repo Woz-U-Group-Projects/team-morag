@@ -1,0 +1,13 @@
+{
+"companyName": "XandaGames",
+"productName": "click210",
+"dataUrl": "click210.data.unityweb",
+"wasmCodeUrl": "click210.wasm.code.unityweb",
+"wasmFrameworkUrl": "click210.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Light",
+"backgroundColor": "#828080",
+"cacheControl": {"default": "must-revalidate"}
+}

@@ -34,6 +34,8 @@ import { ListsResolver } from './_resolvers/lists.resolver';
 import { MessagesResolver } from './_resolvers/messages.resolver';
 import { MemberMessagesComponent } from './members/member-messages/member-messages.component';
 import { VideoPageComponent } from './video-page/video-page.component';
+import { GamesComponent } from './games/games.component';
+import { NewsComponent } from './news/news.component';
 
 export function tokenGetter() {
   return localStorage.getItem('token');
@@ -54,7 +56,9 @@ export function tokenGetter() {
     PhotoEditorComponent,
     TimeAgoPipe,
     MemberMessagesComponent,
-    VideoPageComponent
+    VideoPageComponent,
+    GamesComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,
