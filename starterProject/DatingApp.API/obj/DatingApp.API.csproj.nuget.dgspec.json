@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/obiajuluchidi/Desktop/Team-Morag/starterProject/DatingApp.API/DatingApp.API.csproj": {}
+    "C:\\Users\\mattr\\Desktop\\team-morag\\starterProject\\DatingApp.API\\DatingApp.API.csproj": {}
   },
   "projects": {
-    "/Users/obiajuluchidi/Desktop/Team-Morag/starterProject/DatingApp.API/DatingApp.API.csproj": {
+    "C:\\Users\\mattr\\Desktop\\team-morag\\starterProject\\DatingApp.API\\DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/obiajuluchidi/Desktop/Team-Morag/starterProject/DatingApp.API/DatingApp.API.csproj",
+        "projectUniqueName": "C:\\Users\\mattr\\Desktop\\team-morag\\starterProject\\DatingApp.API\\DatingApp.API.csproj",
         "projectName": "DatingApp.API",
-        "projectPath": "/Users/obiajuluchidi/Desktop/Team-Morag/starterProject/DatingApp.API/DatingApp.API.csproj",
-        "packagesPath": "/Users/obiajuluchidi/.nuget/packages/",
-        "outputPath": "/Users/obiajuluchidi/Desktop/Team-Morag/starterProject/DatingApp.API/obj/",
+        "projectPath": "C:\\Users\\mattr\\Desktop\\team-morag\\starterProject\\DatingApp.API\\DatingApp.API.csproj",
+        "packagesPath": "C:\\Users\\mattr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mattr\\Desktop\\team-morag\\starterProject\\DatingApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/obiajuluchidi/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\mattr\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -65,16 +65,10 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }
