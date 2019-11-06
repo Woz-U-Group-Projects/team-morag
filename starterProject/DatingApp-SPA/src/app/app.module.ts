@@ -36,6 +36,12 @@ import { MemberMessagesComponent } from './members/member-messages/member-messag
 import { VideoPageComponent } from './video-page/video-page.component';
 import { GamesComponent } from './games/games.component';
 import { NewsComponent } from './news/news.component';
+import { NotificationComponent } from './notification/notification.component';
+
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faBell as farBell } from '@fortawesome/free-regular-svg-icons';
+import { faBell as fasBell } from '@fortawesome/free-solid-svg-icons';
 
 export function tokenGetter() {
   return localStorage.getItem('token');
@@ -58,9 +64,11 @@ export function tokenGetter() {
     MemberMessagesComponent,
     VideoPageComponent,
     GamesComponent,
-    NewsComponent
+    NewsComponent,
+    NotificationComponent
   ],
   imports: [
+    FontAwesomeModule,
     BrowserModule,
     HttpClientModule,
     FormsModule,
@@ -96,4 +104,9 @@ export function tokenGetter() {
     ],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule {
+
+  constructor() {
+    library.add(fasBell, farBell);
+  }
+}
