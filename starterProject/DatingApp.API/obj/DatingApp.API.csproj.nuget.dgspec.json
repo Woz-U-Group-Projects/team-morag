@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/obiajuluchidi/Desktop/Team-Morag/starterProject/DatingApp.API/DatingApp.API.csproj": {}
+    "/Users/obiajuluchidi/Desktop/team-morag/starterProject/DatingApp.API/DatingApp.API.csproj": {}
   },
   "projects": {
-    "/Users/obiajuluchidi/Desktop/Team-Morag/starterProject/DatingApp.API/DatingApp.API.csproj": {
+    "/Users/obiajuluchidi/Desktop/team-morag/starterProject/DatingApp.API/DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/obiajuluchidi/Desktop/Team-Morag/starterProject/DatingApp.API/DatingApp.API.csproj",
+        "projectUniqueName": "/Users/obiajuluchidi/Desktop/team-morag/starterProject/DatingApp.API/DatingApp.API.csproj",
         "projectName": "DatingApp.API",
-        "projectPath": "/Users/obiajuluchidi/Desktop/Team-Morag/starterProject/DatingApp.API/DatingApp.API.csproj",
+        "projectPath": "/Users/obiajuluchidi/Desktop/team-morag/starterProject/DatingApp.API/DatingApp.API.csproj",
         "packagesPath": "/Users/obiajuluchidi/.nuget/packages/",
-        "outputPath": "/Users/obiajuluchidi/Desktop/Team-Morag/starterProject/DatingApp.API/obj/",
+        "outputPath": "/Users/obiajuluchidi/Desktop/team-morag/starterProject/DatingApp.API/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
