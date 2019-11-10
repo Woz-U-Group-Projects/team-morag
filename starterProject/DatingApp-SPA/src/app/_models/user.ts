@@ -18,4 +18,6 @@ export interface User {
   lookingFor?: string;
   photos?: Photo[];
   videos?: Video[];
+  notifications: number;
+  messageRecieved: boolean;
 }

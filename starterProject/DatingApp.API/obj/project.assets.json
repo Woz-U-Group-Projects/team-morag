@@ -12256,11 +12256,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\white\\Desktop\\AmoraFinal\\team-morag\\starterProject\\DatingApp.API\\DatingApp.API.csproj",
+      "projectUniqueName": "c:\\Users\\white\\Desktop\\team-morag\\starterProject\\DatingApp.API\\DatingApp.API.csproj",
       "projectName": "DatingApp.API",
-      "projectPath": "c:\\Users\\white\\Desktop\\AmoraFinal\\team-morag\\starterProject\\DatingApp.API\\DatingApp.API.csproj",
+      "projectPath": "c:\\Users\\white\\Desktop\\team-morag\\starterProject\\DatingApp.API\\DatingApp.API.csproj",
       "packagesPath": "C:\\Users\\white\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\white\\Desktop\\AmoraFinal\\team-morag\\starterProject\\DatingApp.API\\obj\\",
+      "outputPath": "c:\\Users\\white\\Desktop\\team-morag\\starterProject\\DatingApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12314,10 +12314,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   },

@@ -15,7 +15,5 @@ namespace DatingApp.API.Dtos
         public string Country { get; set; }
         public string PhotoUrl { get; set; }
         public string VideoUrl { get; set; }
-        public int Notifications { get; set; }
-        public bool MessageRecieved { get; set; }
     }
 }

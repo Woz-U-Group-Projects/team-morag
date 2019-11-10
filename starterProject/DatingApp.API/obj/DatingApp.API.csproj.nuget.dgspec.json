@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\white\\Desktop\\AmoraFinal\\team-morag\\starterProject\\DatingApp.API\\DatingApp.API.csproj": {}
+    "c:\\Users\\white\\Desktop\\team-morag\\starterProject\\DatingApp.API\\DatingApp.API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\white\\Desktop\\AmoraFinal\\team-morag\\starterProject\\DatingApp.API\\DatingApp.API.csproj": {
+    "c:\\Users\\white\\Desktop\\team-morag\\starterProject\\DatingApp.API\\DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\white\\Desktop\\AmoraFinal\\team-morag\\starterProject\\DatingApp.API\\DatingApp.API.csproj",
+        "projectUniqueName": "c:\\Users\\white\\Desktop\\team-morag\\starterProject\\DatingApp.API\\DatingApp.API.csproj",
         "projectName": "DatingApp.API",
-        "projectPath": "c:\\Users\\white\\Desktop\\AmoraFinal\\team-morag\\starterProject\\DatingApp.API\\DatingApp.API.csproj",
+        "projectPath": "c:\\Users\\white\\Desktop\\team-morag\\starterProject\\DatingApp.API\\DatingApp.API.csproj",
         "packagesPath": "C:\\Users\\white\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\white\\Desktop\\AmoraFinal\\team-morag\\starterProject\\DatingApp.API\\obj\\",
+        "outputPath": "c:\\Users\\white\\Desktop\\team-morag\\starterProject\\DatingApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,6 +57,10 @@
               "target": "Package",
               "version": "[2.1.1, )"
             },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "(, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -65,10 +69,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

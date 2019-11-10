@@ -105,5 +105,40 @@ namespace DatingApp.API.Controllers
             
             return BadRequest("Failed to like user");
         }
+
+        [HttpPost("{id}/set/notifications/{amount}")]
+        public async Task<IActionResult> SetNotifications(int id, int amount)
+        {
+            var user = await _repo.GetUser(id);
+            user.Notifications += amount;
+
+            return Ok();
+        }
+
+        [HttpPost("{id}/set/messagereceved")]
+        public async Task<IActionResult> SetMessageRecieved(int id)
+        {
+            var user = await _repo.GetUser(id);
+            user.MessageRecieved = true;
+
+            return Ok();
+        }
+
+        [HttpPost("{id}/get/notifications")]
+        public async Task<IActionResult> GetNotifications(int id)
+        {
+            var user = await _repo.GetUser(id);
+
+            return Ok(user.Notifications);
+        }
+
+        [HttpPost("{id}/get/messagereceved")]
+        public async Task<IActionResult> GetMessageRecieved(int id)
+        {
+            var user = await _repo.GetUser(id);
+
+            return Ok(user.MessageRecieved);
+        }
+
     }
 }

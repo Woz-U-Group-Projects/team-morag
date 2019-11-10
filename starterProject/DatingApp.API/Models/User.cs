@@ -26,5 +26,7 @@ namespace DatingApp.API.Models
         public ICollection<Like> Likees { get; set; }
         public ICollection<Message> MessagesSent { get; set; }
         public ICollection<Message> MessagesReceived { get; set; }
+        public int Notifications { get; set; }
+        public bool MessageRecieved { get; set; }
     }
 }
