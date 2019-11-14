@@ -4,6 +4,18 @@
 
 img {
     max-height: 50px;
-    border: 2px solid white;
+    border: 2px solid black;
     display: inline;
+}
+.container {
+    background-color: black;
+    height: 100px;
+}
+nav {
+    background-color: black;
+    height: 100px;
+}
+body {
+    font-family: monospace;
+    font-size: medium;
 }

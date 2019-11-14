@@ -7,7 +7,7 @@
 @import '../node_modules/ngx-bootstrap/datepicker/bs-datepicker.css';
 
 .tab-panel {
-    border: 1px solid #ddd;
+    border: 1px solid aqua;
     padding: 10px;
     border-radius: 4px;
   }
@@ -19,11 +19,11 @@
   .member-tabset > .nav-tabs > li.open > a, .member-tabset > .nav-tabs > li:hover > a {
     border: 0;
     background: none !important;
-    color: #333333;
+    color: aqua;
   }
   
   .member-tabset > .nav-tabs > li.open > a > i, .member-tabset > .nav-tabs > li:hover > a > i {
-    color: #a6a6a6;
+    color: aquamarine;
   }
   
   .member-tabset > .nav-tabs > li.open .dropdown-menu, .member-tabset > .nav-tabs > li:hover .dropdown-menu {

@@ -49,3 +49,17 @@
 /Users/obiajuluchidi/Desktop/team-morag/starterProject/DatingApp.API/obj/Debug/netcoreapp2.1/DatingApp.API.RazorTargetAssemblyInfo.cache
 /Users/obiajuluchidi/Desktop/team-morag/starterProject/DatingApp.API/obj/Debug/netcoreapp2.1/DatingApp.API.dll
 /Users/obiajuluchidi/Desktop/team-morag/starterProject/DatingApp.API/obj/Debug/netcoreapp2.1/DatingApp.API.pdb
+C:\Users\mattr\Desktop\team-morag\starterProject\DatingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.deps.json
+C:\Users\mattr\Desktop\team-morag\starterProject\DatingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.runtimeconfig.json
+C:\Users\mattr\Desktop\team-morag\starterProject\DatingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.runtimeconfig.dev.json
+C:\Users\mattr\Desktop\team-morag\starterProject\DatingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.dll
+C:\Users\mattr\Desktop\team-morag\starterProject\DatingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.pdb
+C:\Users\mattr\Desktop\team-morag\starterProject\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.csprojAssemblyReference.cache
+C:\Users\mattr\Desktop\team-morag\starterProject\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.csproj.CoreCompileInputs.cache
+C:\Users\mattr\Desktop\team-morag\starterProject\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.RazorAssemblyInfo.cache
+C:\Users\mattr\Desktop\team-morag\starterProject\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.RazorAssemblyInfo.cs
+C:\Users\mattr\Desktop\team-morag\starterProject\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.AssemblyInfoInputs.cache
+C:\Users\mattr\Desktop\team-morag\starterProject\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.AssemblyInfo.cs
+C:\Users\mattr\Desktop\team-morag\starterProject\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.RazorTargetAssemblyInfo.cache
+C:\Users\mattr\Desktop\team-morag\starterProject\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.dll
+C:\Users\mattr\Desktop\team-morag\starterProject\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.pdb
