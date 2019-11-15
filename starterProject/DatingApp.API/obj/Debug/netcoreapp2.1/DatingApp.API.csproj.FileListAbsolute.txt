@@ -63,3 +63,17 @@ C:\Users\mattr\Desktop\team-morag\starterProject\DatingApp.API\obj\Debug\netcore
 C:\Users\mattr\Desktop\team-morag\starterProject\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.RazorTargetAssemblyInfo.cache
 C:\Users\mattr\Desktop\team-morag\starterProject\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.dll
 C:\Users\mattr\Desktop\team-morag\starterProject\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.pdb
+c:\Users\white\Desktop\team-morag\team-morag\starterProject\DatingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.deps.json
+c:\Users\white\Desktop\team-morag\team-morag\starterProject\DatingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.runtimeconfig.json
+c:\Users\white\Desktop\team-morag\team-morag\starterProject\DatingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.runtimeconfig.dev.json
+c:\Users\white\Desktop\team-morag\team-morag\starterProject\DatingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.dll
+c:\Users\white\Desktop\team-morag\team-morag\starterProject\DatingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.pdb
+c:\Users\white\Desktop\team-morag\team-morag\starterProject\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.csprojAssemblyReference.cache
+c:\Users\white\Desktop\team-morag\team-morag\starterProject\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.RazorAssemblyInfo.cache
+c:\Users\white\Desktop\team-morag\team-morag\starterProject\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.RazorAssemblyInfo.cs
+c:\Users\white\Desktop\team-morag\team-morag\starterProject\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.AssemblyInfoInputs.cache
+c:\Users\white\Desktop\team-morag\team-morag\starterProject\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.AssemblyInfo.cs
+c:\Users\white\Desktop\team-morag\team-morag\starterProject\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.RazorTargetAssemblyInfo.cache
+c:\Users\white\Desktop\team-morag\team-morag\starterProject\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.dll
+c:\Users\white\Desktop\team-morag\team-morag\starterProject\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.pdb
+C:\Users\white\Desktop\team-morag\team-morag\starterProject\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.csproj.CoreCompileInputs.cache
