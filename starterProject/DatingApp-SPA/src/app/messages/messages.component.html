@@ -1,13 +1,14 @@
+<body>
 <div class="container mt-5">
     <div class="row">
       <div class="btn-group">
-        <button class="btn btn-primary" [(ngModel)]="messageContainer" btnRadio="Unread" (click)="loadMessages()">
+        <button class="btn btn-dark" [(ngModel)]="messageContainer" btnRadio="Unread" (click)="loadMessages()">
           <i class="fa fa-envelope"></i> Unread
         </button>
-        <button class="btn btn-primary" [(ngModel)]="messageContainer" btnRadio="Inbox" (click)="loadMessages()">
+        <button class="btn btn-success" [(ngModel)]="messageContainer" btnRadio="Inbox" (click)="loadMessages()">
           <i class="fa fa-envelope-open"></i> Inbox
         </button>
-        <button class="btn btn-primary" [(ngModel)]="messageContainer" btnRadio="Outbox" (click)="loadMessages()">
+        <button class="btn btn-danger" [(ngModel)]="messageContainer" btnRadio="Outbox" (click)="loadMessages()">
           <i class="fa fa-paper-plane"></i> Outbox
         </button>
       </div>
@@ -41,7 +42,7 @@
           </td>
           <td>{{message.messageSent | timeAgo}}</td>
           <td>
-            <button class="btn btn-danger" (click)="$event.stopPropagation()" (click)="deleteMessage(message.id)">Delete</button>
+            <button class="btn btn-dark" (click)="$event.stopPropagation()" (click)="deleteMessage(message.id)">Delete</button>
           </td>
         </tr>
       </table>
@@ -59,3 +60,4 @@
                 previousText="&lsaquo;" nextText="&rsaquo;" firstText="&laquo;" lastText="&raquo;">
     </pagination>
     </div>
+    </body>

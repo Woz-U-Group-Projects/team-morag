@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+  height: 820px;
+}
 table {
   margin-top: 15px;
 }
@@ -8,4 +12,7 @@ table {
 
 td {
   vertical-align: middle;
+}
+h3 {
+  color: paleturquoise;
 }

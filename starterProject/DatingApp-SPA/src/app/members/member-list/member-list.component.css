@@ -15,9 +15,16 @@
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
   }
+  body {
+    background-color: black;
+  }
 
 div {
     background-color: black;
+}
+.container  {
+     height: 700px;
+     width: 1400px;
 }
 
   
