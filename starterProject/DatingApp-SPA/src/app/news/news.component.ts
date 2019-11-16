@@ -10,6 +10,8 @@ export class NewsComponent implements OnInit {
 
   constructor(private newService: NewsService) { }
 
+  news = [];
+
   ngOnInit() {
     this.getNews();
   }
@@ -17,7 +19,9 @@ export class NewsComponent implements OnInit {
   getNews() {
     this.newService.GetNews().subscribe(
       (data) => {
-        console.log(data);
+
+        this.news = data['articles'];
+        console.log(this.news);
       }
     )
   }
