@@ -16,8 +16,10 @@ import { VideoPageComponent } from './video-page/video-page.component';
 import { GamesComponent } from './games/games.component';
 import { NewsComponent } from './news/news.component';
 
+
 export const appRoutes: Routes = [
     {path: 'home', component: HomeComponent},
+
     {
         path: '',
         runGuardsAndResolvers: 'always',
@@ -33,8 +35,11 @@ export const appRoutes: Routes = [
             {path: 'lists', component: ListsComponent, resolve: {users: ListsResolver}},
             {path: 'videos' , component: VideoPageComponent },
              {path: 'games', component: GamesComponent},
-            {path: 'news', component: NewsComponent}
+            {path: 'news', component: NewsComponent},
+
+
         ]
     },
     {path: '**', redirectTo: 'home', pathMatch: 'full'},
+
 ];

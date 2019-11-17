@@ -37,6 +37,7 @@ import { VideoPageComponent } from './video-page/video-page.component';
 import { GamesComponent } from './games/games.component';
 import { NewsComponent } from './news/news.component';
 
+
 export function tokenGetter() {
   return localStorage.getItem('token');
 }
@@ -58,7 +59,8 @@ export function tokenGetter() {
     MemberMessagesComponent,
     VideoPageComponent,
     GamesComponent,
-    NewsComponent
+    NewsComponent,
+
   ],
   imports: [
     BrowserModule,
