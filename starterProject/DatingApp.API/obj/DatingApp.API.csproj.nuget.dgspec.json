@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/obiajuluchidi/Desktop/team-morag/starterProject/DatingApp.API/DatingApp.API.csproj": {}
+    "c:\\Users\\white\\Desktop\\team-morag\\starterProject\\DatingApp.API\\DatingApp.API.csproj": {}
   },
   "projects": {
-    "/Users/obiajuluchidi/Desktop/team-morag/starterProject/DatingApp.API/DatingApp.API.csproj": {
+    "c:\\Users\\white\\Desktop\\team-morag\\starterProject\\DatingApp.API\\DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/obiajuluchidi/Desktop/team-morag/starterProject/DatingApp.API/DatingApp.API.csproj",
+        "projectUniqueName": "c:\\Users\\white\\Desktop\\team-morag\\starterProject\\DatingApp.API\\DatingApp.API.csproj",
         "projectName": "DatingApp.API",
-        "projectPath": "/Users/obiajuluchidi/Desktop/team-morag/starterProject/DatingApp.API/DatingApp.API.csproj",
-        "packagesPath": "/Users/obiajuluchidi/.nuget/packages/",
-        "outputPath": "/Users/obiajuluchidi/Desktop/team-morag/starterProject/DatingApp.API/obj/",
+        "projectPath": "c:\\Users\\white\\Desktop\\team-morag\\starterProject\\DatingApp.API\\DatingApp.API.csproj",
+        "packagesPath": "C:\\Users\\white\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\white\\Desktop\\team-morag\\starterProject\\DatingApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/obiajuluchidi/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\white\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -58,7 +58,6 @@
               "version": "[2.1.1, )"
             },
             "Microsoft.NETCore.App": {
-              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
@@ -66,19 +65,19 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[11.0.2, )"
+            },
+            "microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )"
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }
