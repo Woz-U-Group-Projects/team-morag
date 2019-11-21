@@ -12,7 +12,7 @@ import { AuthService } from '../../_services/auth.service';
   styleUrls: ['./member-edit.component.css']
 })
 export class MemberEditComponent implements OnInit {
-  @ViewChild('editForm') editForm: NgForm;
+  @ViewChild('editForm', {static: false}) editForm: NgForm;
   user: User;
   photoUrl: string;
   videoUrl: string;
