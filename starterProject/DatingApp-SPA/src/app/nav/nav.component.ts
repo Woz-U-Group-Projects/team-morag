@@ -12,6 +12,7 @@ export class NavComponent implements OnInit {
   model: any = {};
   photoUrl: string;
   videoUrl: string;
+  navState = 'collapse';
 
   constructor(public authService: AuthService, private alertify: AlertifyService,
       private router: Router) { }
@@ -42,6 +43,10 @@ export class NavComponent implements OnInit {
     this.authService.currentUser = null;
     this.alertify.message('logged out');
     this.router.navigate(['/home']);
+  }
+
+  toggleNav() {
+    this.navState =  this.navState  !== 'collapse.show  navbar-collapse' ? 'collapse.show  navbar-collapse' : 'collapse  navbar-collapse';
   }
 
 }
