@@ -38,8 +38,9 @@
       </div>
       <div class="col-sm-8">
         <div class="tab-panel">
-          <tabset class="member-tabset">
-            <tab heading="Edit Profile">
+          <ngb-tabset class="member-tabset">
+              <!-- heading="Edit Profile" -->
+            <ngb-tab >
 
               <form #editForm="ngForm" id="editForm" (ngSubmit)="updateUser()">
                   <h4>About Me</h4>
@@ -61,12 +62,13 @@
 
               </form>
 
-            </tab>
-            <tab heading="Edit Photos">
+            </ngb-tab>
+            <!-- heading="Edit Photos" -->
+            <ngb-tab >
               <app-photo-editor [photos]="user.photos"
                 (getMemberPhotoChange)="updateMainPhoto($event)"></app-photo-editor>
-            </tab>
-          </tabset>
+            </ngb-tab>
+          </ngb-tabset>
         </div>
       </div>
     </div>

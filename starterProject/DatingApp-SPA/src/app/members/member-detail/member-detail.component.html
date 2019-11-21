@@ -34,24 +34,28 @@
     </div>
     <div class="col-sm-8">
       <div class="tab-panel">
-        <tabset class="member-tabset" #memberTabs>
-          <tab heading="About {{user.knownAs}}">
+        <ngb-tabset class="member-tabset" #memberTabs>
+            <!-- heading="About {{user.knownAs}}" -->
+          <ngb-tab >
             <h4>About Me:</h4>
             <p>{{user.introduction}}</p>
             <h4>Looking For:</h4>
             <p>{{user.lookingFor}}</p>
-          </tab>
-          <tab heading="Interests">
+          </ngb-tab>
+          <!-- heading="Interests" -->
+          <ngb-tab >
             <h4>Hobbies:</h4>
             <p>{{user.interests}}</p>
-          </tab>
-          <tab heading="Photos">
+          </ngb-tab>
+          <!-- heading="Photos" -->
+          <ngb-tab >
             <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
-          </tab>
-          <tab heading="Messages">
+          </ngb-tab>
+          <!-- heading="Messages" -->
+          <ngb-tab >
             <app-member-messages [recipientId]="user.id"></app-member-messages>
-          </tab>
-        </tabset>
+          </ngb-tab>
+        </ngb-tabset>
       </div>
     </div>
   </div>
