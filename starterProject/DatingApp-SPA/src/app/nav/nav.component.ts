@@ -12,7 +12,8 @@ export class NavComponent implements OnInit {
   model: any = {};
   photoUrl: string;
   videoUrl: string;
-  navState = 'collapse';
+  navState = true;
+  dropdownState = false;
 
   constructor(public authService: AuthService, private alertify: AlertifyService,
       private router: Router) { }
@@ -46,7 +47,11 @@ export class NavComponent implements OnInit {
   }
 
   toggleNav() {
-    this.navState =  this.navState  !== 'collapse.show  navbar-collapse' ? 'collapse.show  navbar-collapse' : 'collapse  navbar-collapse';
+    this.navState =  !this.navState ;
+  }
+
+  toggleDropdown() {
+    this.dropdownState = !this.dropdownState;
   }
 
 }

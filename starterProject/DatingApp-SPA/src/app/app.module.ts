@@ -6,7 +6,7 @@ import { RouterModule } from '@angular/router';
 import { JwtModule } from '@auth0/angular-jwt';
 import { NgxGalleryModule } from 'ngx-gallery';
 import { FileUploadModule } from 'ng2-file-upload';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import {NgbModule, NgbDropdownModule} from '@ng-bootstrap/ng-bootstrap';
 import {TimeAgoPipe} from 'time-ago-pipe';
 
 import { AppComponent } from './app.component';
@@ -65,6 +65,7 @@ export function tokenGetter() {
   ],
   imports: [
     BrowserModule,
+    NgbDropdownModule,
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
