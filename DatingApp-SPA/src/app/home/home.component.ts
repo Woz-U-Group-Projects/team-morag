@@ -8,6 +8,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class HomeComponent implements OnInit {
   registerMode = false;
+videoPressed = false;
 
   constructor(private http: HttpClient) {}
 
@@ -15,6 +16,11 @@ export class HomeComponent implements OnInit {
 
   registerToggle() {
     this.registerMode = true;
+
+
+}
+playVideo() {
+  this.videoPressed = true;
   }
 
   cancelRegisterMode(registerMode: boolean) {
