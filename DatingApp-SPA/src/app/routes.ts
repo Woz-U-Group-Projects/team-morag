@@ -14,6 +14,7 @@ import { ListsResolver } from './_resolvers/lists.resolver';
 import { MessagesResolver } from './_resolvers/messages.resolver';
 import { NewsComponent } from './news/news.component';
 import { GamesComponent } from './games/games.component';
+import { ContactComponent} from './contact/contact.component';
 
 export const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -56,6 +57,10 @@ export const appRoutes: Routes = [
       {
         path: 'games',
         component : GamesComponent
+      },
+      {
+        path: 'contact',
+        component : ContactComponent
       }
 
     ]

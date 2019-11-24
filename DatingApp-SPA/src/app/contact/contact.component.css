@@ -1,0 +1,29 @@
+orm input {
+    outline-width: 0;
+    border-style: none;
+}
+
+form textarea {
+    outline-width: 0;
+    border-style: none;
+}
+
+form div {
+    margin-bottom: 5px;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched {
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom: 2px solid red;
+}
+
+input.ng-valid.ng-touched,
+textarea.ng-valid.ng-touched {
+    border-bottom: 2px solid green;
+}

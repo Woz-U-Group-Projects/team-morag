@@ -42,6 +42,7 @@ import { MessagesResolver } from './_resolvers/messages.resolver';
 import { MemberMessagesComponent } from './members/member-messages/member-messages.component';
 import { NewsComponent } from './news/news.component';
 import { GamesComponent } from './games/games.component';
+import { ContactComponent } from './contact/contact.component';
 
 export function tokenGetter() {
   return localStorage.getItem('token');
@@ -70,7 +71,8 @@ export class CustomHammerConfig extends HammerGestureConfig {
     TimeAgoPipe,
     MemberMessagesComponent,
     NewsComponent,
-    GamesComponent
+    GamesComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
