@@ -1,3 +1,8 @@
+body {
+    background-color: black;
+    color: skyblue;
+    height: 860px;
+}
 orm input {
     outline-width: 0;
     border-style: none;

@@ -1,6 +1,7 @@
+<body>
 <div class="container mt-5">
   <div *ngIf="!registerMode" style="text-align: center">
-    <h1>Find your match</h1>
+    <h1 class="glow">Amora</h1>
     <p class="lead">Come on in and join the fun!</p>
     <div class="text-center">
       <button class="btn btn-primary btn-lg mr-2" (click)="registerToggle()">Register</button>
@@ -18,3 +19,4 @@
 </div>
 
 <iframe class = "centerIt" *ngIf="videoPressed" src="https://res.cloudinary.com/dc4isai1e/video/upload/v1574378892/tvhh4jrzeb6jwqzxo3lc.mp4" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
+</body>
