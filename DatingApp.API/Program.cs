@@ -20,7 +20,7 @@ namespace DatingApp.API
                 {
                     var context = services.GetRequiredService<DataContext>();
                     context.Database.Migrate();
-                    Seed.SeedUsers(context);
+                   // Seed.SeedUsers(context);
                 }
                 catch (Exception ex)
                 {

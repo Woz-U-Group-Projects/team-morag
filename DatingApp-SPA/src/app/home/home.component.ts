@@ -7,8 +7,8 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  registerMode = false;
-videoPressed = false;
+    registerMode = false;
+    videoPressed = false;
 
   constructor(private http: HttpClient) {}
 
