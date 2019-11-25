@@ -1,0 +1,23 @@
+<body>
+<div class="container mt-5">
+  <div *ngIf="!registerMode" style="text-align: center">
+    <h1 class="glow">Amora</h1>
+    <p class="lead">Come on in and join the fun!</p>
+    <div class="text-center">
+      <button class="btn btn-primary btn-lg mr-2" (click)="registerToggle()">Register</button>
+      <button class="btn btn-info btn-lg" (click) = "playVideo()">Watch Video</button>
+    </div>
+  </div>
+
+  <div *ngIf="registerMode" class="container">
+    <div class="row justify-content-center">
+      <div class="col-4">
+        <app-register (cancelRegister)="cancelRegisterMode($event)"></app-register>
+      </div>
+    </div>
+  </div>
+</div>
+
+<iframe class = "centerIt" *ngIf="videoPressed" src="https://res.cloudinary.com/dc4isai1e/video/upload/v1574378892/tvhh4jrzeb6jwqzxo3lc.mp4" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen ></iframe>
+</body>
+

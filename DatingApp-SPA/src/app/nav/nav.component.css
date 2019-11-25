@@ -1,0 +1,14 @@
+.dropdown-toggle, .dropdown-item {
+    cursor: pointer;
+}
+
+img {
+    max-height: 50px;
+    border: 2px solid white;
+    display: inline
+}
+nav {
+    height: 150px;
+    font-family:  monospace;
+    font-size: 18px;
+}

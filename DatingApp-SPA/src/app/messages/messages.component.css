@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+  height: 800px;
+}
+table {
+  margin-top: 15px;
+}
+
+.img-circle {
+  max-height: 50px;
+}
+
+td {
+  vertical-align: middle;
+}
+h3 {
+  color: aqua;
+}
