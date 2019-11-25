@@ -8,6 +8,7 @@ img {
     display: inline
 }
 nav {
-    height: 100px;
-    color: whitesmoke;
+    height: 150px;
+    font-family:  monospace;
+    font-size: 18px;
 }

@@ -1,6 +1,7 @@
 body {
     background-color: black;
     color: skyblue;
+    font-family: monospace;
     height: 800px;
 }
 .glow {
