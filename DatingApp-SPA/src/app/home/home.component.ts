@@ -16,6 +16,7 @@ videoPressed = false;
 
   registerToggle() {
     this.registerMode = true;
+    this.videoPressed = false;
 
 
 }
