@@ -1,1 +1,9 @@
-<p>news works!</p>
+
+<div *ngFor="let article of articles">
+    <h2>{{article.title}}</h2>
+  
+      <p>
+        {{article.description}}
+      </p>
+      <a href="{{article.url}}">Read full article</a>
+  </div>
