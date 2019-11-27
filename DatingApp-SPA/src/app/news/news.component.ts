@@ -9,9 +9,9 @@ export class NewsComponent implements OnInit {
   articles: any;
   constructor(private apiService: ApiService) { }
   ngOnInit() {
-    this.apiService.getNews().subscribe((data)=>{
+    this.apiService.getNews().subscribe((data) => {
       console.log(data);
-     
+
       this.articles = data['articles'];
     });
   }
