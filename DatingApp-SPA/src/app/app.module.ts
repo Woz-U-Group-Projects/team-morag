@@ -15,6 +15,7 @@ import { JwtModule } from '@auth0/angular-jwt';
 import { NgxGalleryModule } from 'ngx-gallery';
 import { FileUploadModule } from 'ng2-file-upload';
 import { TimeAgoPipe } from 'time-ago-pipe';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
@@ -90,7 +91,8 @@ export class CustomHammerConfig extends HammerGestureConfig {
         whitelistedDomains: ['localhost:5000'],
         blacklistedRoutes: ['localhost:5000/api/auth']
       }
-    })
+    }),
+    FontAwesomeModule
   ],
   providers: [
     ErrorInterceptorProvider,
