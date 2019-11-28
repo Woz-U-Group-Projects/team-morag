@@ -1,9 +1,20 @@
+<div class="container">
+  <div class="row">
+    <div *ngIf="isLoading;else loaded" class="centeredItem"> 
+          <fa-icon [icon]="faSpinner" size='4x' [spin]='true'></fa-icon>
+    </div>
 
-<div *ngFor="let article of articles">
-    <h2>{{article.title}}</h2>
-  
-      <p>
-        {{article.description}}
-      </p>
-      <a href="{{article.url}}">Read full article</a>
+    <ng-template #loaded>
+      <div *ngFor="let article of articles">
+        <h2>{{article.title}}</h2>
+      
+          <p>
+            {{article.description}}
+          </p>
+          <a href="{{article.url}}">Read full article</a>
+      </div>
+    </ng-template>
   </div>
+</div>
+
+
