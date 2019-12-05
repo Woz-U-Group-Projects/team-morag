@@ -5,3 +5,8 @@
     align-items: center;
     justify-content: center;
 }
+body {
+    border: 10px ridge silver;
+    background-color: black;
+    color: skyblue;
+}

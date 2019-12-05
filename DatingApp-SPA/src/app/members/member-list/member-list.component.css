@@ -2,4 +2,14 @@ body {
     background-color: black;
     color: aqua;
     height: 843px;
+    border: 10px ridge silver;
 }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+ }
+    
+
