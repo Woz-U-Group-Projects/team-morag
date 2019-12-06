@@ -1,5 +1,10 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+<<<<<<< HEAD
+=======
+import { Country } from '../_models/country.enum';
+import { Category } from '../_models/category.enum';
+>>>>>>> dev
 
 @Injectable({
   providedIn: 'root'
@@ -10,21 +15,21 @@ export class ApiService {
     url: string = 'https://newsapi.org/v2/top-headlines';
 
   constructor(private httpClient: HttpClient) { }
-  public getNews(country = 'us', category = 'science', sources?, keywords?, pagesize = 20, page = 1){
-  let apiUrl = this.url + '?country=' + country + '&category=' + category;
+  public getNews(userObj: {country: string , category: Category, sources: string , keywords: string, pagesize: string, page :string}){
+  let apiUrl = this.url + '?country=' + userObj.country + '&category=' + userObj.category;
 
-  if (sources) {
-      apiUrl += '&sources=' + sources;
-      if (keywords) {
-        apiUrl += '&q=' + keywords;
+  if (userObj.sources === ' ') {
+      apiUrl += '&sources=' + userObj.sources;
+      if (userObj.keywords === ' ') {
+        apiUrl += '&q=' + userObj.keywords;
       }
-    } else if (keywords) {
-      apiUrl += '&q=' + keywords;
-      if (sources) {
-        apiUrl += '&sources=' + sources;
+    } else if (userObj.keywords === ' ') {
+      apiUrl += '&q=' + userObj.keywords;
+      if (userObj.sources === ' ') {
+        apiUrl += '&sources=' + userObj.sources;
       }
     }
-  apiUrl += '&pageSize=' + pagesize + '&page=' + page + '&apiKey=' + this.API_KEY;
+  apiUrl += '&pageSize=' + userObj.pagesize + '&page=' + userObj.page + '&apiKey=' + this.API_KEY;
   return this.httpClient.get(apiUrl);
  }
 }
