@@ -2,10 +2,12 @@
     margin: 25px;
     width: 85%;
     height: 85%;
+    border: 5px ridge silver;
 }
 
 .card-body {
     padding: 0 25px;
+    border: 5px ridge silver;
 }
 
 .card-footer {
@@ -15,7 +17,9 @@
 }
 body {
     background-color: black;
+    border: 10px ridge silver;
 }
+
 div {
     background-color: black;
 }
@@ -28,3 +32,4 @@ strong {
 p {
     color: whitesmoke;
 }
+    

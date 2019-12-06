@@ -11,4 +11,5 @@ nav {
     height: 150px;
     font-family:  monospace;
     font-size: 18px;
+    border: 10px ridge silver;
 }

@@ -1,6 +1,7 @@
 body {
     background-color: black;
     height: 840px;
+    border: 10px ridge silver;
 }
 h2 {
     color: aqua;

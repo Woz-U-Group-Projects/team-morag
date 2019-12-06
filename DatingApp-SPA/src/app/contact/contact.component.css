@@ -2,6 +2,7 @@ body {
     background-color: black;
     color: skyblue;
     height: 860px;
+    border: 10px ridge silver;
 }
 orm input {
     outline-width: 0;

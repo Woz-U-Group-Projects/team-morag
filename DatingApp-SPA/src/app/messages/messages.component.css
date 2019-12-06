@@ -1,6 +1,7 @@
 body {
   background-color: black;
   height: 800px;
+  border: 10px ridge silver;
 }
 table {
   margin-top: 15px;
