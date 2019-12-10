@@ -1,10 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-<<<<<<< HEAD
-=======
 import { Country } from '../_models/country.enum';
 import { Category } from '../_models/category.enum';
->>>>>>> dev
 
 @Injectable({
   providedIn: 'root'

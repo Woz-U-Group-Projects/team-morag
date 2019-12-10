@@ -9,15 +9,6 @@ import { Category } from '../_models/category.enum';
   templateUrl: './news.component.html',
   styleUrls: ['./news.component.css']
 })
-<<<<<<< HEAD
-export class NewsComponent implements OnInit {
-  articles: NewsItem[] = [];
-  isLoading = false;
-  faSpinner = faSpinner;
-
-
-  constructor(private apiService: ApiService) { }
-=======
 export class NewsComponent implements OnInit, AfterViewChecked {
   @ViewChild('selectElement', {static: true}) selectElm: ElementRef;
   articles: NewsItem[] = [];
@@ -29,16 +20,10 @@ export class NewsComponent implements OnInit, AfterViewChecked {
 
 
   constructor(private apiService: ApiService, private r2: Renderer2) { }
->>>>>>> dev
   ngOnInit() {
     this.getNews();
   }
 
-<<<<<<< HEAD
-  getNews() {
-    this.isLoading = true;
-    this.apiService.getNews().subscribe((data) => {
-=======
   ngAfterViewChecked() {
       console.log(this.selectElm);
   }
@@ -54,7 +39,6 @@ export class NewsComponent implements OnInit, AfterViewChecked {
     this.userObj.country = country.toString();
     console.log(this.selectElm);
     this.apiService.getNews(this.userObj).subscribe((data) => {
->>>>>>> dev
       this.isLoading = false;
       console.log(data);
 
