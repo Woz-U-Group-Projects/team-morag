@@ -41,6 +41,7 @@ import { NewsComponent } from './news/news.component';
 import { GamesComponent } from './games/games.component';
 import { ContactComponent } from './contact/contact.component';
 
+
 export function tokenGetter() {
   return localStorage.getItem('token');
 }
@@ -69,7 +70,8 @@ export class CustomHammerConfig extends HammerGestureConfig {
     MemberMessagesComponent,
     NewsComponent,
     GamesComponent,
-    ContactComponent
+    ContactComponent,
+
   ],
   imports: [
     BrowserModule,
